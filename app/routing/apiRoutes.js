@@ -19,7 +19,6 @@ module.exports = function (app) {
       for (let j = 0; j < friendArray[0].scores.length; j++) {
         tempScore += Math.abs(friend.scores[j] - friendArray[i].scores[j])
       }
-      console.log(tempScore);
       //swap match if difference is lower
       if (tempScore < friendScore) {
         friendScore = tempScore;
@@ -30,10 +29,10 @@ module.exports = function (app) {
     //console.log(req.body);
     console.log(friendScore);
     console.log(match);
-    
-    
 
-    res.json(friendArray);
-    //friendArray.push(req.body);
+    //add new user to database
+    friendArray.push(friend);
+
+    res.json(match);
   })
 };

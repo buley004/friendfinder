@@ -22,6 +22,10 @@
     form {
       margin-left: 20px;
     }
+
+    #friend-pic {
+      max-height: 200px;
+    }
   </style>
 </head>
 
@@ -153,6 +157,28 @@
     <button type="submit" class="btn btn-primary" id="submit">Submit</button>
   </form>
 
+  <!-- Modal to display results -->
+  <div class="modal" tabindex="-1" role="dialog" id="results">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Your New Best Friend!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2 id="new-friend"></h2>
+          <img id="friend-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_DZ6ET1hmhXoNt9wNyvv2IXAzIfoievwbHcKAqKuFcvTiWndcLw">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
     $("#submit").on("click", function () {
       event.preventDefault();
@@ -174,11 +200,15 @@
             $("#q10").val()
           ]
         };
-        
+
         //AJAX post call
-        $.post("/api/friends", userInfo, function(data){
+        $.post("/api/friends", userInfo, function (data) {
           console.log(data);
-          
+          //add match to modal and display
+          $("#new-friend").text(data.name);
+          $("#friend-pic").attr("src", data.photo);
+          $("#results").modal("toggle");
+
         });
       } else {
         alert("Please fill out all fields.");
