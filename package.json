@@ -1,7 +1,6 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.0",
@@ -22,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/buley004/friendfinder/issues"
   },
-  "homepage": "https://github.com/buley004/friendfinder#readme"
+  "homepage": "https://github.com/buley004/friendfinder#readme",
+  "description": ""
 }
