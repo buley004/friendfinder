@@ -1,7 +1,7 @@
 var friendArray = [
   {
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+    "name": "Carl",
+    "photo": "https://i.pinimg.com/474x/64/ae/01/64ae0152386de13b1e3127a26251282a--and-then-ali.jpg",
     "scores": [
       "5",
       "1",
@@ -16,7 +16,7 @@ var friendArray = [
     ]
   },
   {
-    "name": "Jacob Deming",
+    "name": "Fiona",
     "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
     "scores": [
       "4",
@@ -32,8 +32,8 @@ var friendArray = [
     ]
   },
   {
-    "name": "Jeremiah Scanlon",
-    "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+    "name": "Frank",
+    "photo": "http://d2zfp6uemhh7c1.cloudfront.net/wp-content/uploads/2018/04/10130300/C3c7t5CWEAE3uiG.jpg",
     "scores": [
       "5",
       "2",
@@ -48,8 +48,8 @@ var friendArray = [
     ]
   },
   {
-    "name": "Louis T. Delia",
-    "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+    "name": "Debbie",
+    "photo": "https://s3.r29static.com//bin/entry/4de/720x864,85/2025108/image.webp",
     "scores": [
       "3",
       "3",
@@ -64,8 +64,8 @@ var friendArray = [
     ]
   },
   {
-    "name": "Lou Ritter",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+    "name": "Lip",
+    "photo": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-shameless-jeremy-allen-white.jpg",
     "scores": [
       "4",
       "3",
@@ -80,8 +80,8 @@ var friendArray = [
     ]
   },
   {
-    "name": "Jordan Biason",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+    "name": "Ian",
+    "photo": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-shameless-cameron-monaghan.jpg",
     "scores": [
       "4",
       "4",
@@ -96,8 +96,24 @@ var friendArray = [
     ]
   },
   {
-    "name": "tabitha",
-    "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F248797%2Fpexels-photo-248797.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2F&docid=ShwNVOdFBcmkxM&tbnid=8c_UAo3gH_220M%3A&vet=10ahUKEwiG1Me6kK3iAhWuY98KHdU9AaUQMwh6KAAwAA..i&w=500&h=200&bih=657&biw=1366&q=images&ved=0ahUKEwiG1Me6kK3iAhWuY98KHdU9AaUQMwh6KAAwAA&iact=mrc&uact=8",
+    "name": "Kermit",
+    "photo": "http://dz8z45gu0xcif.cloudfront.net/wp-content/uploads/2018/03/12153950/Screen-Shot-2018-03-12-at-5.39.34-PM.png",
+    "scores": [
+      "1",
+      "2",
+      "2",
+      "5",
+      "2",
+      "4",
+      "3",
+      "1",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "name": "Kevin",
+    "photo": "https://www.intouchweekly.com/wp-content/uploads/2017/07/kevin-ball-shameless.jpg?fit=200%2C1",
     "scores": [
       "5",
       "4",
@@ -112,40 +128,8 @@ var friendArray = [
     ]
   },
   {
-    "name": "tabitha",
-    "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F248797%2Fpexels-photo-248797.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2F&docid=ShwNVOdFBcmkxM&tbnid=8c_UAo3gH_220M%3A&vet=10ahUKEwiG1Me6kK3iAhWuY98KHdU9AaUQMwh6KAAwAA..i&w=500&h=200&bih=657&biw=1366&q=images&ved=0ahUKEwiG1Me6kK3iAhWuY98KHdU9AaUQMwh6KAAwAA&iact=mrc&uact=8",
-    "scores": [
-      "5",
-      "4",
-      "2",
-      "1",
-      "2",
-      "4",
-      "3",
-      "3",
-      "2",
-      "3"
-    ]
-  },
-  {
-    "name": "tabitha",
-    "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F248797%2Fpexels-photo-248797.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2F&docid=ShwNVOdFBcmkxM&tbnid=8c_UAo3gH_220M%3A&vet=10ahUKEwiG1Me6kK3iAhWuY98KHdU9AaUQMwh6KAAwAA..i&w=500&h=200&bih=657&biw=1366&q=images&ved=0ahUKEwiG1Me6kK3iAhWuY98KHdU9AaUQMwh6KAAwAA&iact=mrc&uact=8",
-    "scores": [
-      "5",
-      "4",
-      "2",
-      "1",
-      "2",
-      "4",
-      "3",
-      "3",
-      "2",
-      "3"
-    ]
-  },
-  {
-    "name": "vani",
-    "photo": "hsdbjds",
+    "name": "Veronica",
+    "photo": "http://cdn.collider.com/wp-content/uploads/2015/02/shameless-shanola-hampton-2.jpg",
     "scores": [
       "3",
       "2",
