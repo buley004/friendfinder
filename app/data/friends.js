@@ -17,7 +17,7 @@ var friendArray = [
   },
   {
     "name": "Fiona",
-    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+    "photo": "https://pixel.nymag.com/imgs/daily/vulture/2019/03/08/08-emmy-rossum-shameless.w700.h700.jpg",
     "scores": [
       "4",
       "2",
